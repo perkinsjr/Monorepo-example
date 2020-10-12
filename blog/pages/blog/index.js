@@ -1,9 +1,9 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Blog() {
   return (
     <div>
-      <h3>This is our blog</h3>
+      <h3>This is our blog! </h3>
       <ul>
         <li>
           <Link href="/blog/post/[id]" as="/blog/post/1">
@@ -24,5 +24,5 @@ export default function Blog() {
         />
       </div>
     </div>
-  )
+  );
 }
